@@ -1,0 +1,26 @@
+.controls
+    display: flex
+    max-width: 540px
+    border-radius: 4px
+    padding: 20px
+    border: 1px solid $white-gray
+    +box-shadow
+    &__col
+        margin-right: 40px
+        width: 50%
+        &:last-child
+            margin-right: 0
+    &__title
+        font-weight: bold
+
+    &__icon
+        @extend .icon
+        color: $white-gray
+        padding-right: 10px
+        &_audience
+            @extend .i-users
+        &_influence
+            @extend .i-horn
+        &_faq
+            @extend .i-faq
+            padding-left: 4px
