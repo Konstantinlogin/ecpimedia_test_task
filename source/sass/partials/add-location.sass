@@ -1,0 +1,20 @@
+.add-location
+    width: 100%
+    &__item
+        margin: 10px auto
+        display: flex
+        align-items: center
+    &__input
+        margin-top: 10px
+        width: calc(100% - 12px)
+    &__text
+        white-space: nowrap
+        text-overflow: ellipsis
+        overflow: hidden
+        width: 140px
+    &__select
+        display: inline-block
+    &__remove
+        @extend .icon
+        @extend .i-close
+        margin-right: 5px
